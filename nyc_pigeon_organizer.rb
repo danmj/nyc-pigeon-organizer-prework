@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
-  phash = {}
+  pigeonhash = {}
   data.each do |property, hash|
     hash.each do |attribute, array|
       array.each do |name|
